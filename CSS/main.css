@@ -1,0 +1,560 @@
+body {
+    background-color: #f9f6f0;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 56px;
+    overflow-x: hidden;
+    line-height: 1.5;
+
+}
+
+.noPadding {
+    padding-top: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Links */
+
+a {
+    color: #f9f6f0;
+}
+
+a:hover {
+    text-decoration: underline;
+/*    text-decoration-color: #f9f6f0;*/
+    font-weight: bold;
+    color: #f9f6f0;
+    /* padding-bottom: 1px; */
+}
+
+/* Navbar */
+.navbar-dark .navbar-brand {
+    color: #f9f6f0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #f9f6f0;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    text-decoration: underline;
+    text-decoration-color: #f9f6f0;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link {
+    color: #f9f6f0;
+}
+
+.color-header {
+    background-color: #009f8b
+}
+
+.logo-icon {
+    /* width: 150px; */
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.75em;
+}
+
+.logo-icon.footer {
+    padding-top: 20px;
+}
+
+.active-header {
+    background-color: #009f8b
+ 
+}
+
+/* Med-small screens */
+@media screen and (max-width: 992px) {
+    .navbar-collapse {
+        background-color: #009f8b
+       
+    }
+
+}
+
+/* Button styles */
+.btn {
+    background-color: #3E4E50;
+    border-color: #3E4E50;
+    color: #f9f6f0;
+    opacity: .9;
+    font-weight: 700;
+}
+
+.btn:hover {
+    /* font-weight: bold; */
+    background-color: #3E4E50;
+    border-color: #3E4E50;
+    opacity: 1;
+    color:  #f9f6f0 !important;
+    text-decoration: underline;
+   
+}
+
+
+.eventJumbo {
+    background-size: contain;
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 50vh;
+    background-color: #f9f6f0;
+}
+
+
+#eventInformation {
+    padding-top: 35px;
+    height: 50vh;
+}
+
+#eventInformation h1 {
+    font-size: 2em;
+}
+
+#socialButtons {
+    height: 50px;
+    background-color: #D9594C;
+    overflow: hidden;
+}
+
+#socialButtons h3 {
+    display: inline-block;
+}
+
+.fab {
+    font-size: 35px;
+    margin: 5px;
+    padding: 5px;
+}
+
+#map {
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+#map2 {
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+#locationField,
+#controls {
+    position: relative;
+}
+
+.autocomplete {
+    position: absolute;
+    width: 50%;
+}
+
+.fa-twitter:hover {
+    color: #1DA1F2;
+    cursor: pointer;
+}
+
+.fa-facebook:hover {
+    color: #3b5998;
+    cursor: pointer;
+}
+
+.fa-instagram:hover {
+    color: #bc2a8d;
+    cursor: pointer;
+
+
+}
+
+footer {
+    background-color: #009f8b;
+    margin-top: 50px;
+
+}
+
+h5.logo {
+    color: #f9f6f0;
+}
+
+#createEventButton {
+    display: block;
+    margin: 0 auto;
+}
+
+.contactUsInner .form-row .form-group col-lg-4 {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Main search Bar */
+.search {
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    left:0;
+    z-index: 10;
+    
+}
+
+.searchbar h1 {
+    text-align: center;
+    color: #f9f6f0;
+}
+
+.searchbar .form-control {
+    opacity: .6;
+}
+
+.searchbar-btn {
+    padding: 1rem 3em;
+
+}
+
+.btn.magnify-icon {
+    background-color: transparent;
+    border: 1px solid #f9f6f0;
+
+}
+
+.btn.magnify-icon:hover {
+    font-weight: bolder;
+}
+
+#button-center {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+/* Homepage Carousel*/
+.event-slider .banner-slide img{
+    height: 100vh;
+    
+    
+}
+
+
+.banner-slide h1 {
+    letter-spacing: 5px;
+    font-size: 8em;
+}
+
+.banner-slide .carousel-caption {
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+
+/* Find an Event Section */
+#explore .img-fluid {
+    height: 150px;
+    width: 100%;
+}
+
+#explore h1 {
+    color: #3E4E50;
+    margin-top: 20px;
+}
+
+#explore p {
+    text-align: center;
+    font-size: 1em;
+    background-color: white;
+    color: #009f8b;
+    padding: 0 50px;
+    opacity: .8;
+}
+
+p.banner-tagline {
+    font-size: 1.5em;
+}
+#explore .col- {
+    margin: 10px;
+}
+.category {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5em;
+    justify-content: center;
+}
+
+.category:hover {
+    opacity: .7;
+}
+.category-content {
+    position: absolute;
+}
+.category-text {
+    z-index: 10;
+    color: white;
+
+}
+
+.search-bar a {
+    position: absolute;
+    z-index: 10;
+    color: white;
+}
+
+.search-bar {
+    text-align: center;
+}
+
+/*Member Dash components*/
+#blktxt a {
+    color: rgb(21, 22, 22);
+}
+
+#blktxt .btn.magnify-icon {
+    border: 1px solid black;
+}
+
+#blktxt .fa-search {
+    color: rgb(21, 22, 22);
+}
+
+#cont-text {
+    text-align: center;
+    overflow: hidden;
+}
+
+.dash-nav {
+    float: inherit;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    height: 90%;
+    border: 1px solid rgb(0, 159, 139);   
+    
+
+}
+
+.dash-nav a {
+    color: rgb(0, 159, 139);
+}
+
+
+#mainDash .fas {
+    font-size: 35px;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+
+
+
+
+.searchforms {
+    background-color: transparent;
+    border: 1.5px solid #f9f6f0;
+    color: #f9f6f0;
+}
+
+
+#cardHomePage .list-group-item {
+    padding: 5px 5px;
+}
+
+#cardHomePage .card-body {
+    padding: 5px 5px;
+}
+
+#cardHomePage .btn {
+    bottom: 5px;
+   position: relative;
+}
+
+#cardHomePage h5 {
+ font-size: 1em;
+}
+
+#cardHomePage .card {
+    height: 450px;
+    margin: 20px 0;
+    -webkit-box-shadow: 5px 4px 8px 0px rgba(0, 0, 0, 0.75) !important;
+    -moz-box-shadow: 5px 4px 8px 0px rgba(0, 0, 0, 0.75)!important;
+    box-shadow: 5px 4px 8px 0px rgba(0, 0, 0, 0.75)!important;
+}
+
+#cardHomePage .card-img-top {
+    height: 150px;
+    object-fit: cover;
+}
+
+#cardHomePage .card-body {
+    padding: 5px 5px;
+}
+
+.readMore {
+    color: blue !important;
+}
+
+#all-event-image {
+    height: 200px;
+}
+
+.all-event-card {
+    border: 2px black solid;
+}
+.card {
+box-shadow: 5px 4px 8px 0px rgba(0, 0, 0, 0.75)!important;
+transition: all .2s ease-in-out;
+}
+
+.card a {
+    color: black;
+}
+.card:hover{
+transform: scale(1.1);
+}
+
+
+#searchNav {
+    visibility: hidden;
+    width: 0;
+    -webkit-transition: width 1.5s;
+    transition: width 1.5s;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.fa-search {
+    cursor: pointer;
+}
+
+/*Login Form Page*/
+
+#login-form{
+    padding: 30px;
+    margin: 50px 0;
+    /*border: 3px dashed aquamarine;
+    border-radius: 15%;*/
+}
+
+
+/*Sign Up Page*/
+
+#signup-form{
+    padding: 45px;
+}
+
+
+
+#resultsTable {
+        border-collapse: collapse;
+        width: 240px;
+      }
+
+#rating {
+        font-size: 13px;
+        font-family: Arial Unicode MS;
+      }
+.iw_table_row {
+        height: 18px;
+      }
+.iw_attribute_name {
+        font-weight: bold;
+        text-align: right;
+      }
+.iw_table_icon {
+        text-align: right;
+      }
+#country {
+        width: 100%;
+      }
+.placeIcon {
+        width: 20px;
+        height: 34px;
+        margin: 4px;
+      }
+.hotelIcon {
+        width: 24px;
+        height: 24px;
+      }
+
+ul.locations-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.socialMedia {
+    color: black !important;
+}
+
+
+
+
+/* Search Result Page */
+
+ .search-banner {
+    background-image: url('images/banner-search.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    margin: 10px;
+    color: #f9f6f0;
+}
+/*.search-events {
+    height: 200px
+}*/
+
+.search-events img {
+    height: 200px;
+}
+#card-details {
+    padding: 0 20px;
+}
+.event-details {
+    padding: 10px;
+}
+.event-date, .event-location {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.datetime {
+    display: flex;
+}
+
+.sponsors {
+    text-align: center;
+}
+
+.event-title {
+    color: #009f8b;
+    font-size: 1em;
+}
+
+h1.search-title, h2.search-title, h3.event-title {
+    font-size: 2em;
+    color: #009f8b;
+    font-weight: bold;
+}
+
+.banner-categories {
+    height: calc(50vh - 56px);
+    background: #fff;
+}
+
+.banner-categories .jumbotron {
+    height: calc(50vh - 56px);
+    background: white;
+    width: 100%;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position-y: center !important;
+    margin: 0;
+    padding: 0;
+}
